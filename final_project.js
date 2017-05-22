@@ -2,6 +2,31 @@ var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
 
+
+
+function xboxPower(){
+var power = 1
+if (power == 1){
+    document.querySelector("image").setAttribute("style","opacity: 0.5")
+    power = 2
+}else if(power == 2){
+    document.querySelector("image").setAttribute("style","opacity: 1.0")
+    power = 1
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // DO NOT EDIT CODE BELOW THIS LINE!
 function getX(shape) {
   if (!shape) {
